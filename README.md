@@ -2,7 +2,7 @@
 
 A production-style backend service for processing categorized financial transaction events, applying configurable fraud rules, storing fraud decisions, and exposing the results through REST APIs.
 
-This project was selected from the  backend project briefs: **Fraud Rule Engine Service**.
+**Fraud Rule Engine Service**.
 
 ## Why this project
 
