@@ -1,0 +1,12 @@
+services:
+  fraud-rule-engine:
+    build: .
+    container_name: fraud-rule-engine
+    ports:
+      - "8080:8080"
+    volumes:
+      - fraud-data:/data
+    environment:
+      SPRING_PROFILES_ACTIVE: default
+volumes:
+  fraud-data:
